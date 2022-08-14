@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    padding: 0px 330px;
+    margin: 0;
+}
+.iskelet {
+    background-image: url('1767710.jpg');
+    width: 100%;
+    height: 100%;
+    padding: 15px 80px;
+    box-sizing: border-box;
+    border-bottom: 3px purple solid;
+}
+.icerik {
+    width: 100%;
+}
+.banner {
+    background-color: rgb(231, 231, 231);
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+}
+#logo img {
+    width: 300px;
+}
+.banner_elements {
+    float: right;
+    width: auto;
+    height: 90%;
+    padding-right: 50px;
+}
+.banner-form {
+    float: right;
+    margin-top: 65px;
+}
+.banner-form select, .banner-form input {
+    border-radius: 25px;
+    width: 165px;
+    height: 27px;
+    margin-left: 20px;
+}
+
+.ust-menu {
+    width: 100%;
+    padding: 0px 20px 10px 20px;
+    margin-top: -20px;
+    position: relative;
+}
+.ust-menu nav {
+    background-color: rgb(33, 33, 33);
+    border-radius: 8px;
+}
+#list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+#list li {
+    display: inline-block;
+    padding: 15px 19px;
+    border-right: 1px solid #fff;
+}
+#list li a {
+    color:aliceblue;
+    text-decoration: none;
+}
+.pano {
+    margin-top: -38px;
+    width: 100%;
+    height: 500px;
+}
+.pano img {
+    width: 100%;
+    height: 500px;
+}
+.orta-menu {
+    width: 100%;
+    margin-top: -20px;
+    position: relative;
+}
+.orta-menu nav {
+    background-color: rgb(33, 33, 33);
+    border-radius: 8px;
+}
+#list_orta {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+#list_orta li {
+    display: inline-block;
+    width: 200px;
+    font-size: 27px;
+    padding: 45px 5px 15px 35px;
+    border-right: 1px solid rgb(85, 84, 84);
+}
+#list_orta li a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.haber {
+    width: 100%;
+    background-color: #535353;
+    height: 100%;
+    padding: 15px;
+    display: inline-block;
+}
+.blok {
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    background-color: #535353;
+    float: left;
+}
+td {
+    width: 250px; padding: 10px;
+    color: #fff;
+}
+.alt-menu {
+    width: 100%;
+}
+.alt-menu nav {
+    background-color: rgb(33, 33, 33);
+    border-radius: 8px;
+}
+#list_alt {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#list_alt li {
+    display: inline-block;
+    padding: 15px 19px;
+    border-right: 1px solid #fff;
+    font-size: 10px;
+}
+#list_alt li a {
+    color:aliceblue;
+    text-decoration: none;
+}
+footer {
+    margin-top: -4px;
+    border-top: 1px yellow solid;
+}
+.footer_aciklama {
+    padding: 15px;
+    padding-bottom: 45px;
+    background-color: #343333;
+    font-size: 10px;
+    color: #6e6d6d;
+    
+}
